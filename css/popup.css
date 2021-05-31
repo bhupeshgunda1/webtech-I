@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* css class for body tag */
+body{
+    background: url("../images/main.jpg");
+    /* background-color: rgb(228, 211, 135); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+/* css class for header tag */
+header{
+    background-attachment: url(images/main.jpg);
+    background-position:center center;
+    position: relative;
+}
+
+/* css class for image inside div tag */
+div img{
+    padding: 1px;
+    height: 120px;
+    width: 150px;
+    float:left;
+}
+
+/* css class for h1 inside div tag */
+div h1{
+    font-size: xx-large;
+    font-family: Segoe UI;
+    color: #f9f9f9;
+}
+
+/* css class for h2 inside div tag */
+div h2{
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #f9f9f9;
+}
+
+/* css class for menubar */
+.menubar{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    background-color: #242d35;
+}
+
+/* css class for menubar unordered list */
+.menubar ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+/* css class for menubar ordered list inside unordered list */
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;    
+}
+
+/* css class for menubar ordered list inside unordered list for anchor tag */
+.menubar ul li a{
+    text-decoration: none;
+    color: white;    
+    font-size: 20px;
+    font-family:fantasy;
+    }
+
+    /* css class for hover effect of menubar */
+.menubar ul li:hover{
+    background-color: rgb(38, 130, 216);
+}
+
+/* css class for Search bar */
+.menubar input[type=text] {
+    float: right;
+    padding: 4px;
+    border: none;
+    margin-top: 7px;
+    font-size: 15px;
+  }
+
+  /* css class for navigation bar */
+.navbar {
+    overflow: visible;
+    scroll-behavior: smooth;
+    font-family: Arial;
+    position: fixed;
+    background-color: #242d35;
+    margin-left: 255px;
+    margin-top: 80px;
+}
+
+/* css class for anchor tags inside navigation bar */
+.navbar a {
+    float: center;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* css class for dropdown menu */
+.dropdown {
+    float: left;
+    overflow: visible;
+    position: fixed;
+    background-color: #242d35;
+    margin-left: 200px;
+    margin-top: 67px;
+}
+
+/* css class for buttons inside dropdown menu */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+}
+
+/* css class for hover effect inside dropdown menu */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(38, 130, 216);
+ }
+
+/* css class for dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* css class for dropdown content for anchor tags */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* css class for hover effect of dropdown content for anchor tags */
+.dropdown-content a:hover {
+    background-color: rgb(247, 243, 240);
+    transform: scale(1.2);
+}
+
+/* css class hover effct for dropdown content */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* css class order placed image */
+.order img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    width: 1000px;
+    height: 500px;
+    display: block;
+    margin-left: 240px;
+    margin-right: auto;
+}
